@@ -48,19 +48,26 @@ form input[type="submit"]:hover{
     color: #000;
     border: 2px solid #dddddd00;
 }
-#input{
+input:not(input[type="submit"]){
     width: 90%;
     max-width: 70%;
     padding: .8em;
     font-size: 1.1rem;
+    margin: .5em 0;
     border-radius: 8px;
     background: transparent;
     color: #ddd;
     border: 2px solid #ddd;
 }
-#input[type="text"]{
-    margin-bottom: 1em;
-}
 textarea{
-    height: 10em;
+    width: 90%;
+    max-width: 70%;
+    padding: .8em;
+    font-size: 1.1rem;
+    margin: .5em 0;
+    border-radius: 8px;
+    background: transparent;
+    color: #ddd;
+    border: 2px solid #ddd;
+    height: 30dvh;
 }
