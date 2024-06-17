@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+    <main class="contact-container">
+        <form action="https://api.web3forms.com/submit" method="post">
+            <h2>Contact Me</h2>
+            <input type="hidden" name="access_key" value="06c50952-9a04-4d8f-b4b6-9b18c6fbb184">
+            <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+            <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+            <textarea style="border-radius: 20px; padding: .75em 1em;" name="message" placeholder="Message" class="contact-inputs" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+</body>
+
+</html>
