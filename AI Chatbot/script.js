@@ -10,7 +10,7 @@ function closeChatBot() {
 const chatInput = document.querySelector('#text-input'),
     sendChatBtn = document.querySelector('#send-btn'),
     chatbox = document.querySelector('.chatbox'),
-    API_KEY = "sk-proj-WCW4d4MMLJwjQ8wxXfgiT3BlbkFJd8XDgSiFkdC5DIVT5KZM";
+    API_KEY = "sk-proj-RHzKKWtzAdtWF6dg7DjzT3BlbkFJU4aLgdBZo80IUWe7pDCp";
 
 let userMessage;
 
